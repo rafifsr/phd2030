@@ -5,15 +5,25 @@
 This repository is organized to support **reproducible, research-grade Python workflows**, with a clear separation between core code, experiments, data, and documentation.
 
 phd-repo/
+
 │
+
 ├── src/
+
 ├── scripts/
+
 ├── notebooks/
+
 ├── tests/
+
 ├── data/
+
 ├── docs/
+
 ├── pyproject.toml
+
 ├── uv.lock
+
 └── README.md
 
 ### `src/`
@@ -70,9 +80,13 @@ Tests help ensure correctness, prevent regressions, and make refactoring safer a
 Contains **project data**, typically organized into subdirectories such as:
 
 data/
+
 │
+
 ├── raw/ # original, untouched data
+
 ├── processed/ # cleaned or transformed data
+
 └── tmp/ # intermediate or disposable files
 
 Raw data should never be modified in place. Large or sensitive datasets may be excluded from version control, with instructions provided in the README.
@@ -85,7 +99,7 @@ Contains **documentation and LaTeX sources**.
 
 This directory is intended for:
 
-- LaTeX manuscripts or notes
+- Write-ups and notes
 - Figures for papers or presentations
 - Methodological explanations
 - Derivations and assumptions
