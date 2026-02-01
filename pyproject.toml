@@ -20,6 +20,9 @@ dependencies = [
 dev = [
     "black>=26.1.0",
     "ipykernel>=7.1.0",
+    "jupyter>=1.1.1",
+    "jupyter-client>=8.8.0",
     "pytest>=9.0.2",
+    "pyzmq>=27.1.0",
     "ruff>=0.14.14",
 ]
